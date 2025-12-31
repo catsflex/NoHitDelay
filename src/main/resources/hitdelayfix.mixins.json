@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.catsflex.hitdelayfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "HitDelayFixMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

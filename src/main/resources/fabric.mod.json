@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "hitdelayfix",
+  "version": "${version}",
+  "name": "HitDelayFix",
+  "description": "Removes that hit delay from 2014",
+  "authors": [
+    "CatsFlex"
+  ],
+  "contact": {
+    "homepage": "https://github.com/CatsFlex/HitDelayFix",
+    "sources": "https://github.com/CatsFlex/HitDelayFix",
+    "issues": "https://github.com/CatsFlex/HitDelayFix/issues"
+  },
+  "license": "GPL-3.0",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [],
+    "main": []
+  },
+  "mixins": [
+    "hitdelayfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
