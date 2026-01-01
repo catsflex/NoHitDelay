@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+issueTrackerURL = "https://github.com/catsflex/NoHitDelay/issues"
+displayURL = "https://modrinth.com/mod/nohitdelay"
+license = "GNU GPL 3.0"
+
+[[mods]]
+modId = "nohitdelay"
+version = "${version}"
+displayName = "NoHitDelay"
+authors = "CatsFlex"
+description = "As controversial as Click Between Frames"
+logoFile = "icon.png"
+
+[[dependencies.nohitdelay]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nohitdelay]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "nohitdelay.mixins.json"
