@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "nohitdelay",
+  "version": "${version}",
+  "name": "NoHitDelay",
+  "description": "As controversial as Click Between Frames",
+  "authors": [
+    "CatsFlex"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/nohitdelay",
+    "sources": "https://github.com/catsflex/NoHitDelay",
+    "issues": "https://github.com/catsflex/NoHitDelay/issues"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/nohitdelay/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.catsflex.nohitdelay.NoHitDelay"
+    ],
+    "modmenu": [
+      "me.catsflex.nohitdelay.config.ModMenuImpl"
+    ]
+  },
+  "mixins": [
+    "nohitdelay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "yet_another_config_lib": "*"
+  }
+}

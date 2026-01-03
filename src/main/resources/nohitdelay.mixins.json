@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.catsflex.nohitdelay.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "NoHitDelayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
